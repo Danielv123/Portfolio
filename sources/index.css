@@ -1,0 +1,13 @@
+#header {
+	margin: 0px auto;
+	height: 50px;
+	top: 0px;
+	position: fixed;
+}
+
+.headerBox {
+	color: red;
+	width: 25%;
+	height: 100%;
+	position: inherit;
+}
