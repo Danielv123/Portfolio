@@ -23,12 +23,12 @@ body {
 }
 
 @keyframes headerBar {
-	from {background-color: red; left:-190px; top:0px;}
-    to {background-color: lime; left:0px; top:0px;}
+	from {left:-190px; top:0px;}
+    to {left:0px; top:0px;}
 }
 @-webkit-keyframes headerBar {
-	from {background-color: red; left:-190px; top:0px;}
-    to {background-color: lime; left:0px; top:0px;}
+	from {left:-190px; top:0px;}
+    to {left:0px; top:0px;}
 }
 
 #page {
