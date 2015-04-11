@@ -15,9 +15,11 @@ body {
 
 #header:hover {
     animation-name: headerBar;
-    animation-duration: 2s;
+    animation-duration: 1s;
+	animation-fill-mode: forwards;
 	-webkit-animation-name: headerBar; /* Chrome, Safari, Opera */
-    -webkit-animation-duration: 2s; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+	-webkit-animation-fill-mode: forwards;  
 }
 
 @keyframes headerBar {
