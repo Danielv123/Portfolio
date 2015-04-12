@@ -21,7 +21,7 @@ body {
 	animation-fill-mode: forwards;
 	-webkit-animation-name: headerBar; /* Chrome, Safari, Opera */
     -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
-	-webkit-animation-fill-mode: forwards;  
+	-webkit-animation-fill-mode: both;  
 }
 
 @keyframes headerBar {
