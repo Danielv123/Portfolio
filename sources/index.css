@@ -16,11 +16,11 @@ body {
 }
 
 #header:hover {
-    animation-name: headerBar;
-    animation-duration: 1s;
+	animation-name: headerBar;
+	animation-duration: 1s;
 	animation-fill-mode: forwards;
 	-webkit-animation-name: headerBar; /* Chrome, Safari, Opera */
-    -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+	-webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
 	-webkit-animation-fill-mode: both;  
 }
 
