@@ -6,6 +6,7 @@ body {
 }
 
 .project {
+	position: relative;
 	float: left;
 	width: 200px;
 	height: 300px;
@@ -16,15 +17,16 @@ body {
 .title {
 	color: yellow;
 	display: block;
-	width: 100%;
-	position: relative;
-	bottom: 20px;
+	width: 200px;
+	position: absolute;
+	bottom: -20px;
 	left: 0;
 	background: black;
-	padding: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	font-size: 20px;
 	opacity: 0;
-	transition: opacity 1s ease-in;
+	transition: opacity 0.5s ease-in;
 }
 
 .project:hover .title{
