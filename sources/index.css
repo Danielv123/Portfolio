@@ -13,24 +13,29 @@ body {
 	display: block;
 	background-color: lime;
 	left: -180px;
+	-webkit-transition: left 0.5s ease-out;
+	transition: left 0.5s ease-out;
 }
 
 #header:hover {
+	left: 0px;
+	/*
 	animation-name: headerBar;
 	animation-duration: 1s;
 	animation-fill-mode: both;
-	-webkit-animation-name: headerBar; /* Chrome, Safari, Opera */
-	-webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
-	-webkit-animation-fill-mode: both;  
+	-webkit-animation-name: headerBar;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	*/
 }
 
 @keyframes headerBar {
-	from {left:-180px; top:0px;}
-    to {left:0px; top:0px;}
+	0% {left:-180px; top:0px;}
+    100% {left:0px; top:0px;}
 }
 @-webkit-keyframes headerBar {
-	from {left:-180px; top:0px;}
-    to {left:0px; top:0px;}
+	0% {left:-180px; top:0px;}
+    100% {left:0px; top:0px;}
 }
 
 #page {
