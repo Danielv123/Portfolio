@@ -12,24 +12,24 @@ body {
 	position: fixed;
 	display: block;
 	background-color: lime;
-	left: -190px;
+	left: -180px;
 }
 
 #header:hover {
 	animation-name: headerBar;
 	animation-duration: 1s;
-	animation-fill-mode: forwards;
+	animation-fill-mode: both;
 	-webkit-animation-name: headerBar; /* Chrome, Safari, Opera */
 	-webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
 	-webkit-animation-fill-mode: both;  
 }
 
 @keyframes headerBar {
-	from {left:-190px; top:0px;}
+	from {left:-180px; top:0px;}
     to {left:0px; top:0px;}
 }
 @-webkit-keyframes headerBar {
-	from {left:-190px; top:0px;}
+	from {left:-180px; top:0px;}
     to {left:0px; top:0px;}
 }
 
