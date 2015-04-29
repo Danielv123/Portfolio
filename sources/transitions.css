@@ -1,6 +1,5 @@
 /* Fade */
 .hvr-fade {
-	display: block;
 	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
