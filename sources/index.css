@@ -49,6 +49,16 @@ body {
 	height: 50px;
 }
 
+#menu .menuTabText {
+	margin-top: 1.5%;
+	-webkit-transition: margin-top 0.5s ease-out;
+	transition: margin-top 0.5s ease-out;
+}
+
+#menu:hover .menuTabText {
+	margin-top: 4.5%;
+}
+
 #page {
 	width: 800px;
 	height: 100%;
@@ -62,13 +72,8 @@ body {
 	width: 25%;
 	height: 100%;
 	float: left;
-	display: table;
 }
 
-.menuBox p {
-	display: table-cell;
-	vertical-align: middle;
-}
 
 .menuBox:hover {
 	background-color: blue;

@@ -20,3 +20,7 @@ var pwidth2 = pwidth + "px";
 document.getElementById("output").innerHTML = (pwidth2);
 document.getElementById("page").style.width = (pwidth2);
 }
+
+window.onload = function() {
+	document.getElementById("hideAll").style.display = "none";
+}
